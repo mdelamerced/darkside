@@ -1,0 +1,13 @@
+class Surrender{
+  void darkStart(){
+   background(0);
+   fill(255);
+   textFont(myFont,48);
+   text("SURRENDER TO THE DARK SIDE", 100, 50);
+   image(pose, 0,0,);
+   
+    
+  }
+  
+  
+}
