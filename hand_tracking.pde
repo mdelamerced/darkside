@@ -1,7 +1,7 @@
 // ----------------------------------------------------------------- // hand events
 void onCreateHands(int handId, PVector pos, float time) {
   println("onCreateHands - handId: " + handId + ", pos: " + pos + ", time:" + time);
- // handsTrackFlag = true;
+  handsTrackFlag = true;
   handVec = pos;
 }
 void onUpdateHands(int handId, PVector pos, float time) {
@@ -11,7 +11,7 @@ void onUpdateHands(int handId, PVector pos, float time) {
 }
 void onDestroyHands(int handId, float time) {
   println("onDestroyHandsCb - handId: " + handId + ", time:" + time);
- // handsTrackFlag = false;
+  handsTrackFlag = false;
   //go back to looking for the guesture that gave you hand.
   kinect.addGesture("RaiseHand");
 }
@@ -27,7 +27,7 @@ void onProgressGesture(String strGesture, PVector position, float progress) {
   //println("onProgressGesture - strGesture: " + strGesture + ", position: " + position + ", progress:" + progress);
 }
 // ----------------------------------------------------------------- // Keyboard event
-void keyPressed() {
+/*void keyPressed() {
   switch(key)
   {
   case ' ':
@@ -35,3 +35,4 @@ void keyPressed() {
     break;
   }
 }
+*/

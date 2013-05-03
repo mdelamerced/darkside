@@ -3,10 +3,8 @@ class Surrender{
    background(0);
    fill(255);
    textFont(myFont,48);
-   text("SURRENDER TO THE DARK SIDE", 100, 50);
-   image(pose, 0,0,);
-   
-    
+   text("SURRENDER TO THE DARK SIDE", 90, 100);
+   image(pose, 0,0);   
   }
   
   

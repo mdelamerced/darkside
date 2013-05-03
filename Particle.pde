@@ -1,4 +1,4 @@
-
+/*
 // class Spore extends the class "VerletParticle2D"
 class Particle extends VerletParticle2D {
 
@@ -19,4 +19,4 @@ class Particle extends VerletParticle2D {
     tint(255, lifespan);
   }
 }
-
+*/

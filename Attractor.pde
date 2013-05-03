@@ -1,11 +1,11 @@
-
+/*
 class Attractor extends VerletParticle2D {
 
   float r;
 
   Attractor (Vec2D loc) {
     super (loc);
-    r = 50;
+    r = 10;
     physics.addParticle(this);
     physics.addBehavior(new AttractionBehavior(this, width, 0.5));
   }
@@ -19,4 +19,4 @@ class Attractor extends VerletParticle2D {
      ellipse (x, y, r*2, r*2);
   }
 }
-
+*/
