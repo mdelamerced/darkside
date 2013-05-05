@@ -6,20 +6,20 @@ class lightsaber {
     // A vector that points to the center of the window
     PVector center = new PVector(width/2, height/2);
     // Subtract center from mouse which results in a vector that points from center to mouse
-  //  mouse.sub(center);
+    //  mouse.sub(center);
     handVec.sub(center);
 
     // Normalize the vector
-  //  mouse.normalize();
+    //  mouse.normalize();
     handVec.normalize();
 
     // Multiply its length by 50
-   // mouse.mult(250);
+    // mouse.mult(250);
     handVec.mult(250);
 
     translate(handVec.x, handVec.y);
     // Draw the resulting vector
-    stroke(255,0,0);
+    stroke(255, 0, 0);
     strokeWeight(10);
     line(0, 0, handVec.x, handVec.y);
   }

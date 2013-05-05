@@ -6,6 +6,4 @@ class Surrender{
    text("SURRENDER TO THE DARK SIDE", 90, 100);
    image(pose, 0,0);   
   }
-  
-  
 }

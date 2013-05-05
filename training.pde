@@ -11,6 +11,7 @@ class light {
 
     if (userList.size() > 0) {
       phase = 2;
+      phase++;
       int userId = userList.get(0);
 
       if ( kinect.isTrackingSkeleton(userId)) {
